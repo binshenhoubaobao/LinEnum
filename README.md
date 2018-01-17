@@ -92,3 +92,8 @@ High-level summary of the checks/tasks performed by LinEnum:
 * Platform/software specific tests:
   * Checks to determine if we're in a Docker container
   * Checks to see if the host has Docker installed
+  
+  
+  LinEnum是一个Linux主机本地信息自动提取的shell脚本，它有超过65项安全检查功能，比如潜在的SUID/GUID文件、Sudo/rhost错误配置等。另外这个脚本还可以根据关键字（比如Password）搜索*.conf和*.log文件，这些功能对于渗透测试人员来说，是非常有用的。
+
+主要功能：
